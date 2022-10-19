@@ -34,7 +34,7 @@ El comando para clonar el repositorio (en caso de no descargar el .zip) desde la
 
     git clone https://github.com/JDamianCabello/laravel-user-post-api.git
 
-De una forma u otra tendrás una carpeta llamada **laravel-image-gallery-master**
+De una forma u otra tendrás una carpeta llamada **laravel-user-post-api**
 
 Para ejecutar los comandos de PHP, necesitas tener PHP instalado, según tu plataforma puedes seguir un tutorial u otro:
 
