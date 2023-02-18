@@ -52,7 +52,7 @@ Se instalaran todas las dependencias necesarias para ejecutar la api. Una vez ac
 
     php artisan serve
 
-Con esto tendremos el servidor en local para probar la galería en la url [127.0.0.1:8000](http://127.0.0.1:8000)
+Con esto tendremos el servidor en local para probar la api en la url [127.0.0.1:8000/api/"](http://127.0.0.1:8000/api/)
 
 ## FAQ
 
