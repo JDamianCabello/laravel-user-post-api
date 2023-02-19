@@ -31,7 +31,6 @@ class PostApiController extends BaseController
 
     public function topPost(): JsonResponse
     {
-
         $query= Post::with('user:id,name')
             ->groupBy('user_id')
             ->select('id', 'user_id', 'title', 'body',  DB::raw('MAX(rating) as rating'))->get();

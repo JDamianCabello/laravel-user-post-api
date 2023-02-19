@@ -38,7 +38,8 @@ $app->singleton(
 
 $app->singleton(
     Illuminate\Contracts\Debug\ExceptionHandler::class,
-    App\Exceptions\Handler::class
+    //App\Exceptions\Handler::class -- Remove Laravel exceptions handler
+    Src\Rest_api\Shared\Infrastructure\Exceptions\HandlerException::class
 );
 
 /*

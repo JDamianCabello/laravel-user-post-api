@@ -175,6 +175,13 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        //* User route and dependency serviceProvider
+        Src\Rest_api\User\Infrastructure\Services\RouteServiceProvider::class,
+        Src\Rest_api\User\Infrastructure\Services\DependencyServiceProvider::class,
+
+        //* Post route and dependency serviceProvider
+        Src\Rest_api\Post\Infrastructure\Services\RouteServiceProvider::class,
+        Src\Rest_api\Post\Infrastructure\Services\DependencyServiceProvider::class,
     ],
 
     /*
